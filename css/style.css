@@ -1,0 +1,51 @@
+.a {
+    background-color: rgb(5, 211, 177);
+    font-weight: bolder;
+    text-align: center;
+    display: list-item;
+    border-style: groove;
+    border-color: black;
+    border-width: 10px;
+    margin-left:400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    
+
+
+}
+
+.b {
+
+}
+.c {
+    font-family: Impact sans-serif;
+    width: 100px;
+    text-transform: uppercase;
+    border-style: double;
+    border-color: rgb(4, 4, 182);
+    border-width: 10px;
+    background-color: rgb(250, 8, 28);
+}
+body {
+   background-image: url(https://www.businesstravel.fr/images/stories/destinations/japon/japon-fuji-temple900.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.d {
+    list-style-type: disc;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    padding: 10px;
+    grid-gap: 10px 150px;
+
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;

@@ -1,0 +1,75 @@
+body {
+    background-color: aqua;
+    color: black;
+    font-style: italic;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container div{
+background-color: beige;
+padding: 30px;
+}
+.container div:nth-child(even) {
+    background-color: brown;
+}
+.profil {
+border-radius: 50%;
+width: 90px;
+height: 90px;
+}
+.profil:hover{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.linkedin {
+    width: 30px;
+    height: 30px;
+    
+}
+a {
+    text-decoration: none;
+}
+
+input{
+    width:140px;
+    height:40px;
+    float:right;
+    clear:right;
+    position: absolute;
+    border-radius:5%;
+    font-size: 20px;
+}
+.webdevelopper {
+        float: right;
+        font-size: 50px;
+        
+}
+.apprenti {
+    float: right;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif ;
+    position: bottom ;
+}
+table tr td {
+    border-collapse: collapse !important;
+    border: 3px solid black;
+}
+
+}
+.language {
+    float: right;
+    
+}

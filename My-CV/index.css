@@ -1,0 +1,23 @@
+body {
+    text-decoration: center;
+    color:black;
+}
+
+.corpo {
+    display: grid;
+    grid-template-rows: 80%;
+    max-width: 960px;
+    margin: auto;
+    grid-row-gap: 10px;
+}
+
+.corpo div {
+    background-color: rgb(162, 22, 197);
+    padding: 80px;
+}
+.corpo div:nth-child(even) {
+    background-color: rgb(250, 20, 20);
+}
+
+
+
